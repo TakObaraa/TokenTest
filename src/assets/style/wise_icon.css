@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'wise_icon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/wise_icon.eot?iefix-wbc964qf625');
+  src: url('../fonts/wise_icon.eot?iefix-wbc964qf625')
+      format('embedded-opentype'),
+    url('../fonts/wise_icon.woff?iefix-wbc964qf625') format('woff'),
+    url('../fonts/wise_icon.ttf?iefix-wbc964qf625') format('truetype');
+}
+
+/*
+[data-icon]:before {
+  font-family: 'wise_icon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+	line-height: 1.0em;
+  box-sizing: border-box;
+}
+*/
+
+.wise-icon {
+  font-family: 'wise_icon';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+
+.icon-alert:before {
+  content: '\EA01';
+}
+
+.icon-align-justify:before {
+  content: '\EA02';
+}
+
+.icon-arrow-up:before {
+  content: '\EA03';
+}
+
+.icon-ban:before {
+  content: '\EA04';
+}
+
+.icon-bbs:before {
+  content: '\EA05';
+}
+
+.icon-board:before {
+  content: '\EA06';
+}
+
+.icon-bookmark:before {
+  content: '\EA07';
+}
+
+.icon-calendar:before {
+  content: '\EA08';
+}
+
+.icon-camera-switch:before {
+  content: '\EA09';
+}
+
+.icon-camera:before {
+  content: '\EA0A';
+}
+
+.icon-cancel:before {
+  content: '\EA0B';
+}
+
+.icon-category:before {
+  content: '\EA0C';
+}
+
+.icon-check:before {
+  content: '\EA0D';
+}
+
+.icon-checkup:before {
+  content: '\EA0E';
+}
+
+.icon-chevron-down:before {
+  content: '\EA0F';
+}
+
+.icon-chevron-up:before {
+  content: '\EA10';
+}
+
+.icon-circular:before {
+  content: '\EA11';
+}
+
+.icon-clip:before {
+  content: '\EA12';
+}
+
+.icon-clock:before {
+  content: '\EA13';
+}
+
+.icon-comment:before {
+  content: '\EA14';
+}
+
+.icon-datepicker:before {
+  content: '\EA15';
+}
+
+.icon-delete:before {
+  content: '\EA16';
+}
+
+.icon-divert:before {
+  content: '\EA17';
+}
+
+.icon-document:before {
+  content: '\EA18';
+}
+
+.icon-download:before {
+  content: '\EA19';
+}
+
+.icon-edit:before {
+  content: '\EA1A';
+}
+
+.icon-entry:before {
+  content: '\EA1B';
+}
+
+.icon-exclamation-sign:before {
+  content: '\EA1C';
+}
+
+.icon-eye-open:before {
+  content: '\EA1D';
+}
+
+.icon-facility:before {
+  content: '\EA1E';
+}
+
+.icon-family:before {
+  content: '\EA1F';
+}
+
+.icon-flag:before {
+  content: '\EA20';
+}
+
+.icon-forum:before {
+  content: '\EA21';
+}
+
+.icon-home:before {
+  content: '\EA22';
+}
+
+.icon-image:before {
+  content: '\EA23';
+}
+
+.icon-info-sign:before {
+  content: '\EA24';
+}
+
+.icon-ledger:before {
+  content: '\EA25';
+}
+
+.icon-list-alt:before {
+  content: '\EA26';
+}
+
+.icon-list:before {
+  content: '\EA27';
+}
+
+.icon-lock:before {
+  content: '\EA28';
+}
+
+.icon-map-marker:before {
+  content: '\EA29';
+}
+
+.icon-meeting:before {
+  content: '\EA2A';
+}
+
+.icon-memo:before {
+  content: '\EA2B';
+}
+
+.icon-message-read:before {
+  content: '\EA2C';
+}
+
+.icon-message-unread:before {
+  content: '\EA2D';
+}
+
+.icon-message:before {
+  content: '\EA2E';
+}
+
+.icon-microphone-off:before {
+  content: '\EA2F';
+}
+
+.icon-microphone:before {
+  content: '\EA30';
+}
+
+.icon-pencil:before {
+  content: '\EA31';
+}
+
+.icon-plural-reply:before {
+  content: '\EA32';
+}
+
+.icon-print:before {
+  content: '\EA33';
+}
+
+.icon-receiver:before {
+  content: '\EA34';
+}
+
+.icon-record:before {
+  content: '\EA35';
+}
+
+.icon-repeat:before {
+  content: '\EA36';
+}
+
+.icon-reply:before {
+  content: '\EA37';
+}
+
+.icon-screenshare:before {
+  content: '\EA38';
+}
+
+.icon-search:before {
+  content: '\EA39';
+}
+
+.icon-setting:before {
+  content: '\EA3A';
+}
+
+.icon-sort:before {
+  content: '\EA3B';
+}
+
+.icon-staff-male:before {
+  content: '\EA3C';
+}
+
+.icon-stats:before {
+  content: '\EA3D';
+}
+
+.icon-stop:before {
+  content: '\EA3E';
+}
+
+.icon-summary:before {
+  content: '\EA3F';
+}
+
+.icon-th-list:before {
+  content: '\EA40';
+}
+
+.icon-user-male:before {
+  content: '\EA41';
+}
+
+.icon-videomeeting-off:before {
+  content: '\EA42';
+}
+
+.icon-videomeeting:before {
+  content: '\EA43';
+}
+
+.icon-whoami:before {
+  content: '\EA44';
+}

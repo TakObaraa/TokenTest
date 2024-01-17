@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Paragraph Color 1`] = `
+<div
+  className="storybook-items"
+>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-t95u7s"
+    >
+      default
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #333
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-16vuhch"
+    >
+      gray
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #666
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-1fj00zh"
+    >
+      ash
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #999
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-cz98zt"
+    >
+      lightGray
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #b3b3b3
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-6ebc4i"
+    >
+      blue
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #337ab7
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-dfrvpb"
+    >
+      success
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #4cae4c
+    </p>
+  </div>
+  <div
+    className="storybook-item"
+    style={
+      Object {
+        "width": "120px",
+      }
+    }
+  >
+    <p
+      className="css-1lh82id"
+    >
+      danger
+    </p>
+    <p
+      className="storybook-component-name"
+    >
+      #d9534f
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div>
+  <p
+    className="css-t95u7s"
+  >
+    Normal Text
+  </p>
+</div>
+`;
