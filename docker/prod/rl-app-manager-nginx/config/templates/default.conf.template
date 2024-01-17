@@ -1,0 +1,28 @@
+server {
+    listen       ${LISTEN};
+    listen  [::]:${LISTEN};
+    server_name  ${SERVER_NAME};
+
+    root   /usr/share/nginx/html;
+    index  index.html;
+
+    charset utf-8;
+
+    location = /nginx/health-check {
+        allow 127.0.0.1;
+        deny all;
+
+        access_log off;
+        return 200;
+    }
+
+    location / {
+        try_files $uri $uri/ /index.html?$query_string;
+    }
+
+    # .から始まるファイルへのアクセスを禁止
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
+
