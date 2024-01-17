@@ -1,0 +1,19 @@
+# NOTE: 個人環境用のdocker-compose。ローカルの環境変数とソースコードをマウント
+#       個人環境用ではローカルビルドしたimageを使用する
+#       docker-compose.overrideに関する情報
+#       - https://docs.docker.jp/compose/extends.html
+version: "3"
+
+services:
+  rl-app-manager-nginx:
+    build:
+      context: ./
+      dockerfile: docker/develop/rl-app-manager-nginx/Dockerfile
+    image: rl-app-manager-nginx:latest-develop
+    env_file:
+        - ./docker/_/mount/.develop.nginx.env
+    volumes:
+      # 作業領域をマウント
+      - ./docker/_/share:/tmp/share
+      # ソースコードをマウント
+      - ./laravel/public:/var/www/html/public

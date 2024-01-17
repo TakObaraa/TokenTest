@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noErrorTruncation": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["./src/components/app/*"],
+      "@features/*": ["./src/features/*"],
+      "@libraries/*": ["./src/util/libraries/*"],
+
+      "@atoms/*": ["./src/components/atoms/*"],
+      "@molecules/*": ["./src/components/molecules/*"],
+      "@organisms/*": ["./src/components/organisms/*"],
+      "@pages/*": ["./src/components/page/*"],
+      "@templates/*": ["./src/components/templates/*"],
+
+      "@stores/*": ["./src/stores/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@utils/*": ["./src/util/*"]
+    }
+  },
+  "types": ["vitest/globals", "vitest/importMeta"],
+  "include": ["src", "vrt/vrt.test.ts"],
+  "exclude": ["node_modules"]
+}

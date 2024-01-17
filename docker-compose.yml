@@ -1,0 +1,28 @@
+# NOTE: develop開発用のdocker-compose
+#       developではghcrに配置したimageを使用する
+# NOTE: コンテナからホスト経由でアクセス可能にするためにextra_hostsを設定（GitHub Acions用）
+#       https://docs.docker.com/desktop/networking/#use-cases-and-workarounds-for-all-platforms
+#       gateway.docker.internalだと接続できないので注意
+version: "3"
+
+services:
+  rl-app-manager-nginx:
+    image: ghcr.io/wiseman-co-ltd/rl-app-manager-nginx:latest-develop
+    hostname: rl-app-manager-nginx
+    container_name: rl-app-manager-nginx
+    healthcheck:
+      test: ["CMD", "wget --spider 127.0.0.1/nginx/health-check || exit 1"]
+      interval: 30s
+      timeout: 30s
+    networks:
+      - rl-app-network
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    ports:
+      - 8010:80
+
+
+
+networks:
+  rl-app-network:
+    name: rl-app-network
