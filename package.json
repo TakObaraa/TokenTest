@@ -18,7 +18,8 @@
     "lint:fix:unsafe": "biome check --apply-unsafe",
     "fix:prettier": "prettier --write .",
     "fix:stylelint": "stylelint --fix .",
-    "fix:eslint": "eslint --fix ."
+    "fix:eslint": "eslint --fix .",
+    "transform": "token-transformer tokens/figma-tokens.json tokens/style-dictionary-tokens.json"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.0.8",
